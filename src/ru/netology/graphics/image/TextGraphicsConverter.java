@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 
 public interface TextGraphicsConverter {
+
     /**
      * Конвертация изображения, переданного как урл, в текстовую графику.
      * @param url урл изображения
@@ -28,6 +29,7 @@ public interface TextGraphicsConverter {
      * @param height максимальная высоту текстовых картинок
      */
     void setMaxHeight(int height);
+
 
     /**
      * Устанавливает максимально допустимое соотношение сторон исходного изображения.
